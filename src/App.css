@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.App-body {
+  text-align: center;
+  transition: all 0.5ms ease-in-out;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+
+.App-body:hover {
+  color: #fff;
+  background-color: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(82, 221, 38, 0.12958686892725846) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: auto;
+  line-height: 5rem;
+  font-size: 50px;
+  border-radius: 10px;
+  display: inline-block;
+  align-self: center;
+  justify-content: center;
+  margin-left: 60px;
+}
